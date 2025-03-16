@@ -12,6 +12,14 @@ code {
     monospace;
 }
 
+.logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #040444;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

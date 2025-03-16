@@ -1,0 +1,98 @@
+export const menLevelThree = [
+  {
+    name: "T-Shirts",
+    categoryId: "men_t_shirts",
+    parentCategoryName: "Topwear",
+    parentCategoryId: "men_topwear",
+  },
+  {
+    name: "Casual Shirts",
+    categoryId: "men_casual_shirts",
+    parentCategoryName: "Topwear",
+    parentCategoryId: "men_topwear",
+  },
+  {
+    name: "Formal Shirts",
+    categoryId: "men_formal_shirts",
+    parentCategoryName: "Topwear",
+    parentCategoryId: "men_topwear",
+  },
+  {
+    name: "Sweatshirts",
+    categoryId: "men_sweatshirts",
+    parentCategoryName: "Topwear",
+    parentCategoryId: "men_topwear",
+  },
+  {
+    name: "Sweaters",
+    categoryId: "men_sweaters",
+    parentCategoryName: "Topwear",
+    parentCategoryId: "men_topwear",
+  },
+  {
+    name: "Jackets",
+    categoryId: "men_jackets",
+    parentCategoryName: "Topwear",
+    parentCategoryId: "men_topwear",
+  },
+  {
+    name: "Blazers & Coats",
+    categoryId: "men_blazers_coats",
+    parentCategoryName: "Topwear",
+    parentCategoryId: "men_topwear",
+  },
+  {
+    name: "Suits",
+    categoryId: "men_suits",
+    parentCategoryName: "Topwear",
+    parentCategoryId: "men_topwear",
+  },
+  {
+    name: "Rain Jackets",
+    categoryId: "men_rain_jackets",
+    parentCategoryName: "Topwear",
+    parentCategoryId: "men_topwear",
+  },
+  {
+    name: "National Wear",
+    categoryId: "men_national_wear",
+    parentCategoryName: "Topwear",
+    parentCategoryId: "men_topwear",
+  },
+  {
+    name: "Jeans",
+    categoryId: "jeans",
+    parentCategoryName: "Bottomwear",
+    parentCategoryId: "men_bottomwear",
+  },
+  {
+    name: "Shorts",
+    categoryId: "shorts",
+    parentCategoryName: "Bottomwear",
+    parentCategoryId: "men_bottomwear",
+  },
+  {
+    name: "Pants",
+    categoryId: "pants",
+    parentCategoryName: "Bottomwear",
+    parentCategoryId: "men_bottomwear",
+  },
+  {
+    name: "Casual Trousers",
+    categoryId: "casual_trousers",
+    parentCategoryName: "Bottomwear",
+    parentCategoryId: "men_bottomwear",
+  },
+  {
+    name: "Formal Trousers",
+    categoryId: "formal_trousers",
+    parentCategoryName: "Bottomwear",
+    parentCategoryId: "men_bottomwear",
+  },
+  {
+    name: "Boxers",
+    categoryId: "boxers",
+    parentCategoryName: "Innerwear and Sleepwear",
+    parentCategoryId: "men_innerwear_sleepwear",
+  },
+];
