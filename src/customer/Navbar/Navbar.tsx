@@ -22,7 +22,7 @@ const Navbar = () => {
   const theme = useTheme();
   const isLarge = useMediaQuery(theme.breakpoints.up("lg"));
   const [selectedCategory, setSelectedCategory] = useState("men");
-  const [showCategorySheer, setShowCategorySheet] = useState(false);
+  const [showCategorySheet, setShowCategorySheet] = useState(false);
 
   return (
     <>
@@ -46,6 +46,7 @@ const Navbar = () => {
                 <li
                   onMouseEnter={() => {
                     setShowCategorySheet(true);
+                    setSelectedCategory(item.categoryId);
                   }}
                   onMouseLeave={() => {
                     setShowCategorySheet(false);
@@ -94,9 +95,15 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="categorySheet absolute top-[4.41rem] left-20 right-20 border">
-          <CategorySheet selectedCategory="men" />
-        </div>
+        {showCategorySheet && (
+          <div
+            onMouseLeave={() => setShowCategorySheet(false)}
+            onMouseEnter={() => setShowCategorySheet(true)}
+            className="categorySheet absolute top-[4.41rem] left-20 right-20 border"
+          >
+            <CategorySheet selectedCategory={selectedCategory} />
+          </div>
+        )}
       </Box>
     </>
   );

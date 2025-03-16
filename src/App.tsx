@@ -6,13 +6,15 @@ import Diversity2Icon from "@mui/icons-material/Diversity2";
 import Navbar from "./customer/Navbar/Navbar";
 import customeTheme from "./theme/customTheme";
 import Home from "./customer/pages/Home/Home";
+import Product from "./customer/pages/Product/Product";
 
 function App() {
   return (
     <ThemeProvider theme={customeTheme}>
       <div>
         <Navbar />
-        <Home />
+        {/* <Home /> */}
+        <Product />
       </div>
     </ThemeProvider>
   );

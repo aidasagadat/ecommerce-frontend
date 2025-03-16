@@ -1,5 +1,5 @@
 import React from "react";
-import ElectricCategory from "../ElectricCategory/ElectricCategory";
+import ElectricCategory from "./ElectricCategory/ElectricCategory";
 import CategoryGrid from "./CategoryGrid/CategoryGrid";
 import Deal from "./Deal/Deal";
 import ShopByCategory from "./ShopByCategory/ShopByCategory";
